@@ -20,6 +20,8 @@
                 android:value="" />
         </activity>
         <activity
+            android:taskAffinity=""
+            android:launchMode="singleTask"
             android:name=".MainActivity2"
             android:exported="false">
             <meta-data
